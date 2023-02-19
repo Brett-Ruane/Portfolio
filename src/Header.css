@@ -1,12 +1,20 @@
-.is-sticky {
-    position: fixed;
+.Header {
+    position: sticky;
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;
-    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
-    background-color: #ffffff !important;
-    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    background-color: #5a066e !important;   
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    margin: 0;
+    padding-left: 10%;
+    font-size: x-large;
+    font-weight: bolder;
 }
