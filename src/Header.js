@@ -20,7 +20,7 @@ function Header() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            resume
+            Resume
           </a>
           </h1>
           
