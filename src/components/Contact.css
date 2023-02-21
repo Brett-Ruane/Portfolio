@@ -3,28 +3,30 @@
   }
   
   .Contact-form {
-    background-color: #282c34;
+    /* background-color: #282c34; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     font-size: calc(10px + 2vmin);
-    color: white;
-    padding-bottom: 50%;
+    padding-top: 90%;
   }
 
   h1 {
     padding-bottom: 3vmin;
   }
   
-  h2 {
-    width: 100%;
-    flex-direction: row;
+  .Contact-names {
     align-items: center;
-    
+    width: 100%;
+    display: flex; 
+    flex-direction: row;
+    background-color: aqua;
+    padding-left: 30%;
+    padding-right: 30%;
   }
   
   input {
-    width: 20%;
+    width: 100%;
     font-size: x-large;
   }

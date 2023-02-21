@@ -1,14 +1,14 @@
-import './App.css';
+import Header from './components/Header';
+import Contact from './components/Contact';
+import TextStack from './components/TextStack';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <>
+    <Header/>
+    <TextStack/>
+    <Contact/>
+    </>    
   );
 }
 
