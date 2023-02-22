@@ -1,14 +1,19 @@
-import Header from './components/Header';
-import Contact from './components/Contact';
-import TextStack from './components/TextStack';
+import Header from "./components/Header";
+import Contact from "./components/Contact";
+import TechStack from "./components/TechStack";
+import Bio from "./components/Bio";
 
 function App() {
   return (
     <>
-    <Header/>
-    <TextStack/>
-    <Contact/>
-    </>    
+      <Header />
+      <Bio />
+      <TechStack />
+      <Contact />
+      <Contact />
+      <Contact />
+      <Contact />
+    </>
   );
 }
 
