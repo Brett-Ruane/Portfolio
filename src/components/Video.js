@@ -4,12 +4,14 @@ import React from "react";
 
 import spaceVideo from "../assets/space.mp4";
 
-function Video() {
+const Video = () => {
   return (
     <div className="movie">
-      <video src={spaceVideo} controls="controls" autoplay="true" />
+      <video autoPlay loop muted id="video">
+        <source src={spaceVideo} type="video/mp4" />
+      </video>
     </div>
   );
-}
+};
 
 export default Video;
