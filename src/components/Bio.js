@@ -3,7 +3,7 @@ import "../functions/ScrollText.js";
 
 function Bio() {
   return (
-    <body className="starWarsBody">
+    <div className="starWarsBody">
       <div className="border">
         <div className="desc">
           <h1>Bio</h1>
@@ -26,7 +26,7 @@ function Bio() {
           </p>
         </div>
       </div>
-    </body>
+    </div>
   );
 }
 

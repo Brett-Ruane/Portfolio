@@ -3,7 +3,7 @@ import "./Header.css";
 function Header() {
   return (
     <header>
-      <p1>Brett Ruane</p1>
+      <p>Brett Ruane</p>
       <a
         className="Git-link"
         href="https://github.com/Brett-Ruane"
