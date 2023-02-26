@@ -15,22 +15,17 @@ function Bio() {
     const bioDescY = bioDesc.getBoundingClientRect().y;
     // const bioDescHeight = bioDesc.getBoundingClientRect().height;
 
-    var scrollBefore = 0;
     var moving = false;
-    const scrolled = window.scrollY;
-
-    if (scrollBefore > scrolled) {
-      scrollBefore = scrolled;
+    if (clientHeight > bioDescY + 500 && moving === false) {
+      bioDesc.style.animation = "scroll 60s linear forwards";
+      moving = true;
     } else {
-      scrollBefore = scrolled;
-      if (clientHeight > bioDescY + 150 && moving === false) {
-        bioDesc.style.animation = "scroll 60s linear forwards";
-        moving = true;
-      }
-      if (clientHeight > bioDescY + 2500) {
-        bioDesc.style.animation = "";
-        moving = false;
-      }
+      bioDesc.style.animation = "";
+      moving = false;
+    }
+    if (clientHeight > bioDescY + 2500) {
+      bioDesc.style.animation = "";
+      moving = false;
     }
   });
   return (
