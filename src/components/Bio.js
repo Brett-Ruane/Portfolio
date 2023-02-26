@@ -10,14 +10,27 @@ function Bio() {
   // const bottomEdge = document.getElementById("bottom");
 
   const bioDesc = document.querySelector(".desc");
-  document.addEventListener("scroll", function () {
+  document.addEventListener("scroll", function (e) {
     const clientHeight = document.documentElement.clientHeight;
     const bioDescY = bioDesc.getBoundingClientRect().y;
-    const bioDescHeight = bioDesc.getBoundingClientRect().height;
+    // const bioDescHeight = bioDesc.getBoundingClientRect().height;
 
-    if (clientHeight > bioDescY + (bioDescHeight * 1) / 3) {
-      bioDesc.style.animation = "scroll 80s linear forwards";
+    var scrollBefore = 0;
+    var moving = false;
+    const scrolled = window.scrollY;
+
+    if (scrollBefore > scrolled) {
+      scrollBefore = scrolled;
     } else {
+      scrollBefore = scrolled;
+      if (clientHeight > bioDescY + 150 && moving === false) {
+        bioDesc.style.animation = "scroll 60s linear forwards";
+        moving = true;
+      }
+      if (clientHeight > bioDescY + 2500) {
+        bioDesc.style.animation = "";
+        moving = false;
+      }
     }
   });
   return (
