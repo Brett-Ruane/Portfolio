@@ -6,26 +6,26 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  margin: auto;
-  font-size: 45px;
+  font-size: 40px;
   background-color: rgba(0, 0, 0, 0);
-  z-index: 2;
+  z-index: 20;
+  font-family: "Star Wars", sans-serif;
+  color: #ffd700;
 }
 
 p1 {
   padding-right: 50%;
-  color: rgb(4, 0, 255);
   background-color: rgba(0, 0, 0, 0);
 }
 
 a.Git-link {
   padding-right: 15px;
-  color: red;
+  color: #ffd700;
   background-color: rgba(0, 0, 0, 0);
 }
 
 a.Resume-link {
-  color: yellow;
+  color: #ffd700;
   background-color: rgba(0, 0, 0, 0);
 }
 

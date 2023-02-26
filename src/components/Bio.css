@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
+.starWarsBody {
+  /* overflow: hidden; */
+  font-family: "Roboto";
+  margin: 22% 0 0 0;
+  position: relative;
+  z-index: 9;
+}
+
+.border {
+  display: flex;
+  height: 100%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.desc {
+  color: #ffc909;
+  font-size: 3vw;
+  line-height: 1.5em;
+  font-weight: bold;
+  text-align: justify;
+  position: relative;
+  animation: 0;
+}
+
+.desc h1,
+h2 {
+  text-align: center;
+}
+
+@keyframes scroll {
+  from {
+    top: 0;
+  }
+  to {
+    top: -6000px;
+  }
+}
+
+/* @supports (animation-timeline: works) {
+  .desc {
+    animation: 80s linear forwards;
+    animation-timeline: scrollup-timeline;
+  }
+
+  @scroll-timeline scrollup-timeline {
+    time-range: 1s;
+  }
+
+  
+} */
