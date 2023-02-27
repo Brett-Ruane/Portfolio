@@ -13,15 +13,18 @@ document.addEventListener("scroll", function () {
     // const bioDescHeight = bioDesc.getBoundingClientRect().height;
 
     var moving = false;
-    if (clientHeight > bioDescY + 500 && moving === false) {
-      bioDesc.style.animation = "scroll 60s linear forwards";
+    if (clientHeight > bioDescY + 200 && moving === false) {
+      bioDesc.style.animation = "scroll 40s linear forwards";
+      bioDesc.style.opacity = "1";
       moving = true;
     } else {
       bioDesc.style.animation = "";
+      bioDesc.style.opacity = "0";
       moving = false;
     }
     if (clientHeight > bioDescY + 2500) {
       bioDesc.style.animation = "";
+      bioDesc.style.opacity = "0";
       moving = false;
     }
   }

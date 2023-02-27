@@ -3,7 +3,6 @@
 .starWarsBody {
   /* overflow: hidden; */
   font-family: "Roboto";
-  margin: 10% 0 0 0;
   position: relative;
   z-index: 9;
 }
@@ -33,11 +32,11 @@ h2 {
 @keyframes scroll {
   from {
     top: 0;
-    transform: translateZ(0) rotateX(13deg);
+    transform: translateZ(0) rotateX(15deg);
   }
   to {
     top: -6000px;
-    transform: translateZ(-2000px) rotateX(14deg);
+    transform: translateZ(-2000px) rotateX(17deg);
   }
 }
 
