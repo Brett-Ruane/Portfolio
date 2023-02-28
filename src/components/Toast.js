@@ -30,10 +30,19 @@ const Toast = ({ toastlist, position, setList }) => {
           className={`${styles.notification} ${styles.toast} ${styles[position]}`}
           style={{ backgroundColor: toast.backgroundColor }}
         >
-          <button onClick={() => deleteToast(toast.id)}>X</button>
+          <button
+            style={{ backgroundColor: toast.backgroundColor }}
+            onClick={() => deleteToast(toast.id)}
+          >
+            X
+          </button>
           <div>
-            <p className={styles.title}>{toast.title}</p>
-            <p className={styles.description}>{toast.description}</p>
+            <p style={{ backgroundColor: toast.backgroundColor }}>
+              {toast.title}
+            </p>
+            <p style={{ backgroundColor: toast.backgroundColor }}>
+              {toast.description}
+            </p>
           </div>
         </div>
       ))}

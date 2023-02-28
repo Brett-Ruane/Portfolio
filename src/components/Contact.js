@@ -69,6 +69,9 @@ function Contact() {
       .then(
         (result) => {
           showToast("success");
+          document.getElementById("name").value = "";
+          document.getElementById("email").value = "";
+          document.getElementById("message").value = "";
         },
         (error) => {
           showToast("danger");

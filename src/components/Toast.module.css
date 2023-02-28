@@ -27,8 +27,7 @@
 .toast {
   height: 100px;
   width: 365px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0);
+  color: #000;
   padding: 20px 15px 10px 10px;
 }
 
