@@ -1,13 +1,64 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+import Toast from "./Toast";
 
 function Contact() {
   const form = useRef();
 
+  const [list, setList] = useState([]);
+  let toastProperties = null;
+
+  const showToast = (type) => {
+    switch (type) {
+      case "success":
+        toastProperties = {
+          id: list.length + 1,
+          title: "Success",
+          description: "This is a success toast component",
+          backgroundColor: "#5cb85c",
+        };
+        break;
+      case "danger":
+        toastProperties = {
+          id: list.length + 1,
+          title: "Danger",
+          description: "Something went horribly wrong",
+          backgroundColor: "#d9534f",
+        };
+        break;
+      case "info":
+        toastProperties = {
+          id: list.length + 1,
+          title: "Info",
+          description: "This is a info toast component",
+          backgroundColor: "#5bc0de",
+        };
+        break;
+      case "warning":
+        toastProperties = {
+          id: list.length + 1,
+          title: "Warning",
+          description: "Fill out entire form",
+          backgroundColor: "#f0ad4e",
+        };
+        break;
+      default:
+        toastProperties = [];
+    }
+    setList([...list, toastProperties]);
+  };
+
   const sendEmail = (e) => {
     e.preventDefault();
-
+    if (
+      document.getElementById("name").value === "" ||
+      document.getElementById("email").value === "" ||
+      document.getElementById("message").value === ""
+    ) {
+      showToast("warning");
+      return;
+    }
     emailjs
       .sendForm(
         "service_gjasu0m",
@@ -17,61 +68,28 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          showToast("success");
         },
         (error) => {
-          console.log(error.text);
+          showToast("danger");
         }
       );
   };
   return (
-    <div className="Contact">
-      <form ref={form} onSubmit={sendEmail} className="form">
+    <div className="contact">
+      <form ref={form} onSubmit={sendEmail} className="contactForm">
+        <h1>contact me</h1>
         <label>Name</label>
-        <input type="text" name="name" />
+        <input type="text" name="name" id="name" />
         <label>Email</label>
-        <input type="email" name="email" />
+        <input type="email" name="email" id="email" />
         <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+        <textarea name="message" id="message" />
+        <input type="submit" value="Send" className="email-button" />
       </form>
+      <Toast toastlist={list} position="buttom-right" setList={setList} />
     </div>
   );
 }
-
-// function NameField() {
-//   const [name, setName] = useState("");
-
-//   return (
-//     <div>
-//       <input value={name} onChange={(e) => setName(e.target.value)} />
-//     </div>
-//   );
-// }
-
-// function EmailField() {
-//   const [email, setEmail] = useState("");
-
-//   return (
-//     <div>
-//       <input value={email} onChange={(e) => setEmail(e.target.value)} />
-//     </div>
-//   );
-// }
-
-// function MessageField() {
-//   const [message, setMessage] = useState("");
-
-//   return (
-//     <div>
-//       <textarea
-//         rows={"6"}
-//         placeholder="Whatever you want to email me about"
-//         value={message}
-//         onChange={(e) => setMessage(e.target.value)}
-//       />
-//     </div>
-//   );
-// }
 
 export default Contact;
