@@ -12,9 +12,6 @@ function App() {
       <Bio />
       <TechStack />
       <Contact />
-      <Contact />
-      <Contact />
-      <Contact />
     </>
   );
 }
