@@ -1,20 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
 
 .tech-stack {
-  text-align: left;
+  background-color: black;
+  text-align: center;
   display: flex;
   flex-direction: column;
   padding: 1rem;
   padding-top: 5rem;
   margin: auto;
-  max-width: 1000px;
-  color: white;
   font-family: "Star Wars", sans-serif;
   padding-top: 20rem;
 }
 
 .techTitle {
-  text-align: center;
   color: #ad7d37;
   font-size: 60px;
   padding-bottom: 2rem;
@@ -23,13 +21,12 @@
 .lang {
   color: #381010;
   font-size: 40px;
-  text-indent: 2rem;
+  padding-bottom: 1rem;
 }
 
 .titleLangs {
   color: #2e557c;
   font-size: 30px;
-  text-indent: 4rem;
   padding-top: 1rem;
 }
 
@@ -37,7 +34,6 @@
   font-family: "Roboto";
   color: #334e30;
   font-size: 30px;
-  text-indent: 6rem;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
 }

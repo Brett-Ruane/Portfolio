@@ -1,28 +1,34 @@
-.project-body {
+.project-wrap {
   background-color: black;
+}
+
+.project-body {
   row-gap: 1.5rem;
   display: flex;
   flex-direction: column;
   padding: 1rem;
   padding-top: 30rem;
   margin: auto;
-  max-width: 600px;
   font-family: "Star Wars", sans-serif;
   color: #ffd700;
+  max-width: 80%;
+}
+
+.project-body p {
+  font-family: "Roboto";
+  color: #2e557c;
+  font-weight: bolder;
+  font-size: 25px;
 }
 
 .project-display {
+  padding-bottom: 3rem;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  column-gap: 2rem;
 }
 
-.project-display picture {
-  max-width: 40%;
-  max-height: 40%;
-}
-
-.project-display video {
+.project-display iframe {
   max-width: 40%;
   max-height: 40%;
 }
