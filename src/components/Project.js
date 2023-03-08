@@ -8,7 +8,7 @@ function Projects() {
   return (
     <div className="project-body">
       <h1>Project one </h1>
-      <p>Project one desc</p>
+      <p>Project one des</p>
       <p>Tech Stack</p>
       <div className="project-display">
         <picture id="project-pic">
