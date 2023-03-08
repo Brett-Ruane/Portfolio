@@ -1,8 +1,10 @@
 .project-body {
-  background-color: aqua;
+  background-color: black;
+  row-gap: 1.5rem;
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  padding-top: 30rem;
   margin: auto;
   max-width: 600px;
   font-family: "Star Wars", sans-serif;
