@@ -3,6 +3,7 @@ import Contact from "./components/Contact";
 import TechStack from "./components/TechStack";
 import Bio from "./components/Bio";
 import Video from "./components/Video";
+import Projects from "./components/Project";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Video />
       <Bio />
+      <Projects />
       <TechStack />
       <Contact />
     </>
