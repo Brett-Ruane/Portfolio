@@ -22,7 +22,7 @@ document.addEventListener("scroll", function () {
       bioDesc.style.opacity = "0";
       moving = false;
     }
-    if (clientHeight > bioDescY + 2500) {
+    if (clientHeight > bioDescY + 2250) {
       bioDesc.style.animation = "";
       bioDesc.style.opacity = "0";
       moving = false;
