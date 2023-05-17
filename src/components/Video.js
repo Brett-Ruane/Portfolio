@@ -13,8 +13,8 @@ function Video() {
     <div className="movie">
       <video
         id="space"
-        autoPlay
-        loop
+        // autoPlay
+        // loop
         muted
         // ref={videoRef}
         // onCanPlay={() => setPlayBack()}
