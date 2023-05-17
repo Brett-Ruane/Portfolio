@@ -13,7 +13,11 @@ function Bio() {
         <div className="desc">
           <h1>Brett Ruane</h1>
           <h2>UGA Class of 2025</h2>
-          <p>I am a student at the University of Georgia.</p>
+          <p>
+            I am a computer science student at the University of Georgia. I
+            simply just love to code. I enjoy learning about new technologies
+            and different ways to interact with computer
+          </p>
         </div>
       </div>
     </div>

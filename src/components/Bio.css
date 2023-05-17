@@ -3,6 +3,7 @@
   position: relative;
   z-index: 9;
   background-color: black;
+  height: 100vh;
 }
 
 .border {
@@ -34,10 +35,21 @@ h2 {
     transform: translateZ(0) rotateX(15deg);
   }
   to {
-    top: -6000px;
-    transform: translateZ(-2000px) rotateX(17deg);
+    /* top: -4000px; */
+    transform: translateZ(0px) rotateX(15deg);
   }
 }
+
+/* @keyframes scroll {
+  from {
+    top: 0;
+    transform: translateZ(0) rotateX(15deg);
+  }
+  to {
+    top: -4000px;
+    transform: translateZ(-2000px) rotateX(17deg);
+  }
+} */
 
 /* @supports (animation-timeline: works) {
   .desc {
