@@ -13,22 +13,7 @@ function Bio() {
         <div className="desc">
           <h1>Brett Ruane</h1>
           <h2>UGA Class of 2025</h2>
-          <p>
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello hello hello hello hello
-            hello hello hello hello hello hello hello
-          </p>
+          <p>I am a student at the University of Georgia.</p>
         </div>
       </div>
     </div>
