@@ -2,7 +2,7 @@ import "./Header.css";
 
 function Header() {
   return (
-    <header>
+    <div className="header">
       <p>Brett Ruane</p>
       <a
         className="Git-link"
@@ -20,7 +20,7 @@ function Header() {
       >
         Resume
       </a>
-    </header>
+    </div>
   );
 }
 

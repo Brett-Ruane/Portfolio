@@ -1,4 +1,4 @@
-header {
+.header {
   position: sticky;
   top: 0;
   display: flex;
@@ -11,12 +11,13 @@ header {
   z-index: 20;
   font-family: "Star Wars", sans-serif;
   color: #ffd700;
+  max-width: 100%;
 }
 
-header p {
+/* .header p {
   padding-right: 50%;
   background-color: rgba(0, 0, 0, 0);
-}
+} */
 
 a.Git-link {
   padding-right: 15px;

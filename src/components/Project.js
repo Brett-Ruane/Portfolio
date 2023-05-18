@@ -5,6 +5,9 @@ import "react-medium-image-zoom/dist/styles.css";
 
 import tiPic from "../assets/tapped-in-pic.png";
 import portPic from "../assets/portfolio-pic.png";
+import blackjack1 from "../assets/blackjackjavafx.png";
+import blackjack2 from "../assets/blackjackjavafx2.png";
+import blackjack3 from "../assets/blackjackjda.png";
 
 function Projects() {
   return (
@@ -38,21 +41,19 @@ function Projects() {
             allowFullScreen
           />
         </div>
-        <h1>Project two </h1>
-        <p>Project two desc</p>
-        <p>Tech Stack</p>
+        <h1>Black Jack Versions</h1>
+        <p>Difference ways i have made blackjack early in my coding career</p>
+        <p>Java, JavaFx, JDA, Maven, Git</p>
         <div className="project-display">
           <Zoom>
-            <img src={portPic} alt="port" width={700} />
+            <img src={blackjack1} alt="port" width={700} />
           </Zoom>
-          <iframe
-            width="1903"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="Rick Astley - Never Gonna Give You Up (Official Music Video)"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          />
+          <Zoom>
+            <img src={blackjack2} alt="port" width={700} />
+          </Zoom>
+          <Zoom>
+            <img src={blackjack3} alt="port" width={700} />
+          </Zoom>
         </div>
         <h1>Project three</h1>
         <p>Project three desc</p>
