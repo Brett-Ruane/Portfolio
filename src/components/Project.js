@@ -71,7 +71,11 @@ function Projects() {
           </Zoom>
         </div>
         <h1>Black Jack Versions</h1>
-        <p>Difference ways i have made blackjack early in my coding career</p>
+        <p>
+          Difference ways i have made blackjack early in my coding career.
+          Javafx version and a discord bot. Discord changed how images worked
+          after i made my discord bot, so the pictures are messed up.
+        </p>
         <p>Java, JavaFx, JDA, Maven, Git</p>
         <div className="project-display">
           <Zoom>
