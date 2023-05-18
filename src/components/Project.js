@@ -8,6 +8,8 @@ import portPic from "../assets/portfolio-pic.png";
 import blackjack1 from "../assets/blackjackjavafx.png";
 import blackjack2 from "../assets/blackjackjavafx2.png";
 import blackjack3 from "../assets/blackjackjda.png";
+import tracking1 from "../assets/tracking.png";
+import tracking2 from "../assets/tracking2.png";
 
 function Projects() {
   return (
@@ -57,21 +59,16 @@ function Projects() {
             allowFullScreen
           />
         </div>
-        <h1>In Progress</h1>
+        <h1>Name in Progress</h1>
         <p>Application to help employees have lunch with clients</p>
         <p>JavaScript, Node.js, React/react-native, APIs(secret), Git</p>
         <div className="project-display">
           <Zoom>
-            <img src={portPic} alt="port" width={700} />
+            <img src={tracking1} alt="port" width={700} />
           </Zoom>
-          <iframe
-            width="1903"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="Rick Astley - Never Gonna Give You Up (Official Music Video)"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          />
+          <Zoom>
+            <img src={tracking2} alt="port" width={700} />
+          </Zoom>
         </div>
         <h1>Black Jack Versions</h1>
         <p>Difference ways i have made blackjack early in my coding career</p>
