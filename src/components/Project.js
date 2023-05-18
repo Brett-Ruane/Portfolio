@@ -41,6 +41,38 @@ function Projects() {
             allowFullScreen
           />
         </div>
+        <h1>This Website</h1>
+        <p>This is one of my first react websites</p>
+        <p>JavaScript, Node.js, React, Git</p>
+        <div className="project-display">
+          <Zoom>
+            <img src={portPic} alt="port" width={700} />
+          </Zoom>
+          <iframe
+            width="1903"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Rick Astley - Never Gonna Give You Up (Official Music Video)"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+        <h1>In Progress</h1>
+        <p>Application to help employees have lunch with clients</p>
+        <p>JavaScript, Node.js, React/react-native, APIs(secret), Git</p>
+        <div className="project-display">
+          <Zoom>
+            <img src={portPic} alt="port" width={700} />
+          </Zoom>
+          <iframe
+            width="1903"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Rick Astley - Never Gonna Give You Up (Official Music Video)"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
         <h1>Black Jack Versions</h1>
         <p>Difference ways i have made blackjack early in my coding career</p>
         <p>Java, JavaFx, JDA, Maven, Git</p>
@@ -54,22 +86,6 @@ function Projects() {
           <Zoom>
             <img src={blackjack3} alt="port" width={700} />
           </Zoom>
-        </div>
-        <h1>Project three</h1>
-        <p>Project three desc</p>
-        <p>Tech Stack</p>
-        <div className="project-display">
-          <Zoom>
-            <img src={portPic} alt="port" width={700} />
-          </Zoom>
-          <iframe
-            width="1903"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="Rick Astley - Never Gonna Give You Up (Official Music Video)"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          />
         </div>
       </div>
     </div>
