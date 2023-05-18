@@ -50,14 +50,6 @@ function Projects() {
           <Zoom>
             <img src={portPic} alt="port" width={700} />
           </Zoom>
-          <iframe
-            width="1903"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="Rick Astley - Never Gonna Give You Up (Official Music Video)"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-          />
         </div>
         <h1>Name in Progress</h1>
         <p>Application to help employees have lunch with clients</p>
