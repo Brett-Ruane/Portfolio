@@ -16,7 +16,7 @@ function Bio() {
           <p>
             I am a computer science student at the University of Georgia. I
             simply just love to code. I enjoy learning about new technologies
-            and different ways to interact with computer
+            and different ways to interact with computers.
           </p>
         </div>
       </div>
