@@ -43,14 +43,6 @@ function Projects() {
             allowFullScreen
           />
         </div>
-        <h1>This Website</h1>
-        <p>This is one of my first react websites</p>
-        <p>JavaScript, Node.js, React, Git</p>
-        <div className="project-display">
-          <Zoom>
-            <img src={portPic} alt="port" width={700} />
-          </Zoom>
-        </div>
         <h1>Name in Progress</h1>
         <p>Application to help employees have lunch with clients</p>
         <p>JavaScript, Node.js, React/react-native, APIs(secret), Git</p>
@@ -60,6 +52,17 @@ function Projects() {
           </Zoom>
           <Zoom>
             <img src={tracking2} alt="port" width={700} />
+          </Zoom>
+        </div>
+        <h1>This Website</h1>
+        <p>
+          This is one of my first react websites <br></br>Improving day after
+          day
+        </p>
+        <p>JavaScript, Node.js, React, Git</p>
+        <div className="project-display">
+          <Zoom>
+            <img src={portPic} alt="port" width={700} />
           </Zoom>
         </div>
         <h1>Black Jack Versions</h1>
