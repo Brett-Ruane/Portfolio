@@ -10,7 +10,7 @@ function TechStack() {
         <p className="langs">JavaScript, React, HTML5, CSS3 and JavaFx</p>
         <p className="titleLangs">Back End</p>
         <p className="langs">
-          Java, Axios, Express, Node.js, (learning) C, C++
+          Java, Axios, Express, Node.js, C, C++ (learning)
         </p>
         <p className="titleLangs">tools</p>
         <p className="langs">
