@@ -57,7 +57,7 @@ function Projects() {
         <h1>This Website</h1>
         <p>
           This is one of my first react websites <br></br>Improving day after
-          day
+          day.
         </p>
         <p>JavaScript, Node.js, React, Git</p>
         <div className="project-display">
