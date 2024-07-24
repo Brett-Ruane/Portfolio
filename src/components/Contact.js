@@ -56,7 +56,7 @@ function Contact() {
         "service_gjasu0m",
         "template_oz607x8",
         form.current,
-        "5UyWYtolwvK4FVoj1"
+        "1gurcnxlkDtlQYTRu"
       )
       .then(
         (result) => {
