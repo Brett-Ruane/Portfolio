@@ -53,7 +53,7 @@ function Contact() {
     }
     emailjs
       .sendForm(
-        "service_gjasu0m",
+        " service_gjasu0m",
         "template_oz607x8",
         form.current,
         "1gurcnxlkDtlQYTRu"
@@ -67,6 +67,7 @@ function Contact() {
         },
         (error) => {
           showToast("danger");
+          console.error(error);
         }
       );
   };
