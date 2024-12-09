@@ -5,6 +5,8 @@ import "react-medium-image-zoom/dist/styles.css";
 
 import tiPic from "../assets/tapped-in-pic.png";
 import ePic from "../assets/ebook.png";
+import sf1 from "../assets/sf.jpg";
+import sf2 from "../assets/sf2.jpg";
 import portPic from "../assets/portfolio-pic.png";
 import blackjack1 from "../assets/blackjackjavafx.png";
 import blackjack2 from "../assets/blackjackjavafx2.png";
@@ -74,6 +76,25 @@ function Projects() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           />
+        </div>
+        <h1>SuperFriends Ai</h1>
+        <p>
+          UGA Hacks 9 <br />
+          <br />
+          - SuperFriends is an AI-based chat project that allows the user to
+          talk to any available heroes. <br />
+          - It generates an image based on the selected hero. <br />
+          - Collaborated with a team to develop. <br />- Constructed the
+          Cloudflare AI gateways and workers to communicate with Open AI.
+        </p>
+        <p>TypeScript, Cloudflare, Node.js, React, Open AI, Git</p>
+        <div className="project-display">
+          <Zoom>
+            <img src={sf1} alt="port" width={700} />
+          </Zoom>
+          <Zoom>
+            <img src={sf2} alt="port" width={700} />
+          </Zoom>
         </div>
         <h1>Name in Progress</h1>
         <p>Application to help employees have lunch with clients</p>
