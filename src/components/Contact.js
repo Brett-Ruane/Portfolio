@@ -82,6 +82,21 @@ function Contact() {
         <label>Message</label>
         <textarea name="message" id="message" />
         <input type="submit" value="Send" className="email-button" />
+        <label>My info</label>
+        <label>
+          Phone:
+          <label style={{ fontFamily: "Arial, sans-serif" }}>
+            {" "}
+            404-276-6240
+          </label>
+        </label>
+        <label>
+          Email:
+          <label style={{ fontFamily: "Arial, sans-serif" }}>
+            {" "}
+            Brettruane2003@gmail.com
+          </label>
+        </label>
       </form>
       <Toast toastlist={list} position="buttom-right" setList={setList} />
     </div>

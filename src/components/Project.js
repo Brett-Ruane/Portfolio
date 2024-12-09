@@ -4,6 +4,7 @@ import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 
 import tiPic from "../assets/tapped-in-pic.png";
+import ePic from "../assets/ebook.png";
 import portPic from "../assets/portfolio-pic.png";
 import blackjack1 from "../assets/blackjackjavafx.png";
 import blackjack2 from "../assets/blackjackjavafx2.png";
@@ -15,6 +16,16 @@ function Projects() {
   return (
     <div className="project-wrap">
       <div className="project-body">
+        <h1 style={{ fontSize: 70, color: "#381010" }}>Work Experience</h1>
+        <p>
+          ROBINS AIR FORCE BASE 402d Software Group - June 2024 to July 2024
+          (8-week intern program) <br />
+          <br />- Learned all about the MIL-STD 1553 and how it works with the
+          Operational Flight Program (OFP)
+          <br /> - Worked on a Scaled Agile Framework (SAFe) team to develop the
+          OFP
+        </p>
+        <h1 style={{ fontSize: 70, color: "#381010" }}>Projects</h1>
         <h1>Tapped in</h1>
         <p>
           **** WINNER - UGA Hacks 8 - Best Use of MongoDB Atlas. <br />
@@ -38,6 +49,27 @@ function Projects() {
             width="1903"
             src="https://www.youtube.com/embed/Ljz048jijoA"
             title="TappedIn Demo Video"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+        <h1>Cinema E-Booking Term Project</h1>
+        <p>
+          <br />- A team of 5 working on it as our term project for Software
+          Engineering (CSCI 4050).
+          <br /> - I am responsible for creating all of the backend and
+          implementing design patterns.
+        </p>
+        <p>JavaScript, Node.js, React.js, Git, Java, Java Spring Boot, MySQL</p>
+        <div className="project-display">
+          <Zoom>
+            <img src={ePic} alt="port" width={700} />
+          </Zoom>
+          <iframe
+            width="1903"
+            src="https://www.youtube.com/embed/bjo-rn8R_4k"
+            title="Ebooking Demo Video"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
