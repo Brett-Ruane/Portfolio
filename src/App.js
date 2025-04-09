@@ -11,8 +11,8 @@ function App() {
       <Header />
       <Video />
       <Bio />
-      <Projects />
       <TechStack />
+      <Projects />
       <Contact />
     </>
   );

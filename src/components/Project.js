@@ -96,9 +96,9 @@ function Projects() {
             <img src={sf2} alt="port" width={700} />
           </Zoom>
         </div>
-        <h1>Name in Progress</h1>
+        <h1>Never Eat Alone</h1>
         <p>Application to help employees have lunch with clients</p>
-        <p>JavaScript, Node.js, React/react-native, APIs(secret), Git</p>
+        <p>JavaScript, Node.js, React, Google Maps' API, Git</p>
         <div className="project-display">
           <Zoom>
             <img src={tracking1} alt="port" width={700} />

@@ -15,7 +15,7 @@ function Contact() {
         toastProperties = {
           id: list.length + 1,
           title: "Success",
-          description: "This is a success toast component",
+          description: "Email Sent",
           backgroundColor: "#5cb85c",
         };
         break;
