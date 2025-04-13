@@ -18,7 +18,12 @@ function Projects() {
   return (
     <div className="project-wrap">
       <div className="project-body">
-        <h1 style={{ fontSize: 70, color: "#381010" }}>Work Experience</h1>
+        <h1
+          className="titles-for-sections"
+          style={{ fontSize: 70, color: "#381010" }}
+        >
+          Work Experience
+        </h1>
         <p>
           ROBINS AIR FORCE BASE 402d Software Group - June 2024 to July 2024
           (8-week intern program) <br />
@@ -27,7 +32,12 @@ function Projects() {
           <br /> - Worked on a Scaled Agile Framework (SAFe) team to develop the
           OFP
         </p>
-        <h1 style={{ fontSize: 70, color: "#381010" }}>Projects</h1>
+        <h1
+          className="titles-for-sections"
+          style={{ fontSize: 70, color: "#381010" }}
+        >
+          Projects
+        </h1>
         <h1>Tapped in</h1>
         <p>
           **** WINNER - UGA Hacks 8 - Best Use of MongoDB Atlas. <br />

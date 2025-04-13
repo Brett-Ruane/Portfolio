@@ -37,3 +37,17 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.titles-for-sections {
+  font-size: 70px;
+  color: #381010;
+  word-break: break-word;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .titles-for-sections {
+    font-size: 40px;
+    text-align: center;
+  }
+}
