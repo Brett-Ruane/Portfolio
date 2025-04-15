@@ -30,7 +30,7 @@ function Projects() {
           <br />- Learned all about the MIL-STD 1553 and how it works with the
           Operational Flight Program (OFP)
           <br /> - Worked on a Scaled Agile Framework (SAFe) team to develop the
-          OFP
+          OFP <br />- Active Secret Security Clearance (Granted in June 2024)
         </p>
         <h1
           className="titles-for-sections"
