@@ -4,12 +4,13 @@ import TechStack from "./components/TechStack";
 import Bio from "./components/Bio";
 import Video from "./components/Video";
 import Projects from "./components/Project";
+import HyperspaceTunnel from "./components/HyperspaceTunnel";
 
 function App() {
   return (
     <>
+      <HyperspaceTunnel />
       <Header />
-      <Video />
       <Bio />
       <TechStack />
       <Projects />

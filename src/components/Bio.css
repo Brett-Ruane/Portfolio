@@ -4,6 +4,7 @@
   z-index: 9;
   background-color: black;
   height: 100vh;
+  margin-top: 80vh;
 }
 
 .border {
@@ -21,23 +22,15 @@
   font-weight: bold;
   text-align: justify;
   position: relative;
+  will-change: transform;
+  backface-visibility: hidden;
+  transform: translateZ(0) rotateX(15deg);
 }
 
 .desc h1,
 h2 {
   text-align: center;
   padding-bottom: 2rem;
-}
-
-@keyframes scroll {
-  from {
-    top: 0;
-    transform: translateZ(0) rotateX(15deg);
-  }
-  to {
-    /* top: -4000px; */
-    transform: translateZ(0px) rotateX(15deg);
-  }
 }
 
 /* @keyframes scroll {

@@ -47,7 +47,7 @@ img {
 
 @media (max-width: 768px) {
   .titles-for-sections {
-    font-size: 40px;
+    font-size: 37.5px !important;
     text-align: center;
   }
 }

@@ -1,4 +1,5 @@
 import "./Header.css";
+import HyperspaceTunnel from "./HyperspaceTunnel";
 
 function Header() {
   return (
