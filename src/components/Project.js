@@ -7,7 +7,7 @@ import tiPic from "../assets/tapped-in-pic.png";
 import ePic from "../assets/ebook.png";
 import sf1 from "../assets/sf.jpg";
 import sf2 from "../assets/sf2.jpg";
-import portPic from "../assets/portfolio-pic.png";
+import portPic from "../assets/new-port-pic.png";
 import blackjack1 from "../assets/blackjackjavafx.png";
 import blackjack2 from "../assets/blackjackjavafx2.png";
 import blackjack3 from "../assets/blackjackjda.png";
