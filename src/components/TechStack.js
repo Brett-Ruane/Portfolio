@@ -11,8 +11,7 @@ function TechStack() {
         </p>
         <p className="titleLangs">tools</p>
         <p className="langs">
-          React/Native.js, MIL-STD 1553, Node.js, Axios, Express, Git, GitHub,
-          Agile/Scrum, HTML5 and CSS3
+          React, Spring Boot, REST, Node.js, Git, Scrum, HTML5/CSS3
         </p>
       </h1>
     </div>
