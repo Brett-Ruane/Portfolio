@@ -43,7 +43,7 @@ function Projects() {
           <a
             href="https://github.com/Brett-Ruane/Pohlig_Hellman_algorithm"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
@@ -53,7 +53,7 @@ function Projects() {
           <a
             href="https://github.com/Brett-Ruane/padding_oracle_attack_AES_CBC"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
@@ -69,7 +69,7 @@ function Projects() {
           <a
             href="https://github.com/Brett-Ruane/TappedIn"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
@@ -106,7 +106,7 @@ function Projects() {
           <a
             href="https://github.com/Brett-Ruane/Cinema-E-Booking"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
@@ -136,7 +136,7 @@ function Projects() {
           <a
             href="https://github.com/Brett-Ruane/UGAHacks9-Chat-Public"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
@@ -175,7 +175,7 @@ function Projects() {
           <a
             href="https://github.com/Brett-Ruane/Portfolio"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             GitHub
           </a>
