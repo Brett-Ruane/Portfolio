@@ -36,9 +36,44 @@ function Projects() {
           className="titles-for-sections"
           style={{ fontSize: 70, color: "#381010" }}
         >
+          Cryptography
+        </h1>
+        <h1 style={{ textIndent: "2rem" }}>Pohlig Hellman Algorithm</h1>
+        <h1 style={{ textIndent: "5rem" }}>
+          <a
+            href="https://github.com/Brett-Ruane/Pohlig_Hellman_algorithm"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+        </h1>
+        <h1 style={{ textIndent: "2rem" }}>Padding Oracle Attack AES CBC</h1>
+        <h1 style={{ textIndent: "5rem" }}>
+          <a
+            href="https://github.com/Brett-Ruane/padding_oracle_attack_AES_CBC"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+        </h1>
+        <h1
+          className="titles-for-sections"
+          style={{ fontSize: 70, color: "#381010" }}
+        >
           Projects
         </h1>
         <h1>Tapped in</h1>
+        <h1>
+          <a
+            href="https://github.com/Brett-Ruane/TappedIn"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+        </h1>
         <p>
           **** WINNER - UGA Hacks 8 - Best Use of MongoDB Atlas. <br />
           <br />
@@ -67,6 +102,15 @@ function Projects() {
           />
         </div>
         <h1>Cinema E-Booking Term Project</h1>
+        <h1>
+          <a
+            href="https://github.com/Brett-Ruane/Cinema-E-Booking"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+        </h1>
         <p>
           <br />- A team of 5 working on it as our term project for Software
           Engineering (CSCI 4050).
@@ -88,6 +132,15 @@ function Projects() {
           />
         </div>
         <h1>SuperFriends Ai</h1>
+        <h1>
+          <a
+            href="https://github.com/Brett-Ruane/UGAHacks9-Chat-Public"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+        </h1>
         <p>
           UGA Hacks 9 <br />
           <br />
@@ -118,6 +171,15 @@ function Projects() {
           </Zoom>
         </div>
         <h1>This Website</h1>
+        <h1>
+          <a
+            href="https://github.com/Brett-Ruane/Portfolio"
+            target="_blank"
+            rel="noopener"
+          >
+            GitHub
+          </a>
+        </h1>
         <p>
           This is one of my first react websites <br></br>Improving day after
           day.
