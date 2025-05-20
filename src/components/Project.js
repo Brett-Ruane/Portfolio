@@ -48,7 +48,7 @@ function Projects() {
             GitHub
           </a>
         </h1>
-        <h1 style={{ textIndent: "2rem" }}>Padding Oracle Attack AES CBC</h1>
+        <h1 style={{ textIndent: "2rem" }}>Padding oracle Attack AES CBC</h1>
         <h1 style={{ textIndent: "5rem" }}>
           <a
             href="https://github.com/Brett-Ruane/padding_oracle_attack_AES_CBC"
