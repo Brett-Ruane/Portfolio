@@ -5,11 +5,7 @@ function Pad() {
   return (
     <div className="starWarsBody">
       <div className="border">
-        <div className="desc">
-          <h1></h1>
-          <h2></h2>
-          <p></p>
-        </div>
+        <div className="desc"></div>
       </div>
     </div>
   );
